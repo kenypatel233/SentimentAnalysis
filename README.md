@@ -2,6 +2,7 @@
 # About the code: 
 
 This is a sentiment analysis problem statement solved using the dataset from kaggle.
+https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
 The main aim was multiclass classification of tweets using NLP
 
 Both Machine Learning and Deep Learning approaches were explored:
@@ -12,9 +13,9 @@ ML models include:
 - As expected, they performed poorly on test data(only 35% accuracy)
 
 Deep Learning approach includes:
-A simple RNN model,(Accuracy: around 75%)
-A LSTM based model,(Accuracy around 82%)
-A Bidirectional LSTM model(Accuracy around 84% but suffers from overfitting)
+- A simple RNN model,(Accuracy: around 75%)
+- A LSTM based model,(Accuracy around 82%)
+- A Bidirectional LSTM model(Accuracy around 84% but suffers from overfitting)
 
 # How To Use
 
@@ -24,13 +25,13 @@ This folder contains 3 files:-
 3. Corona_NLP_test.csv
 
 
-## ------------------------About the module----------------------------------------------------------
+## ----------About the module--------------
 
 - Tools used: Jupyter notebook in Ananconda environment
 - Dependencies: Python 3, Tensorflow version 2.5.0, Keras, nltk
 - Libraries used: Numpy, Sklearn, Seaborn, Keras, Tensorflow, Matplotlib, gensim
 
-## ===================Instructions to run the code======================================
+## =====Instructions to run the code======
 
 #### 1. IN JUPYTER NOTEBOOK:
 - The folder contains the train and test data in form of .csv files ('Corona_NLP_train.csv' and 'Corona_NLP_test.csv')
