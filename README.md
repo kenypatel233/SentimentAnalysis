@@ -12,7 +12,7 @@ ML models include:
 - Multinomial Naive Bayes Classifier, 
 - Gradient Boosting classifier,
 - Random Forest Classifier( relatively best training accuracy around 77%)
-- As expected, they performed poorly on test data(only 35% accuracy)
+- As expected, they performed poorly on true test data(only 35% accuracy)
 
 Deep Learning approach includes:
 - A simple RNN model,(Accuracy: around 75%)
